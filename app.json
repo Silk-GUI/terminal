@@ -2,7 +2,7 @@
   "name": "Terminal",
   "title" : "Terminal",
   "url" : "//localhost:8000/",
-  "icon" : "//localhost:3000/terminal/icon.png",
+  "icon" : "icon.png",
   "remote" : {
     "port": 8000
   },
