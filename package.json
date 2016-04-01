@@ -1,0 +1,27 @@
+{
+  "name": "terminal",
+  "productName": "Terminal",
+  "version": "0.0.1",
+  "description": "Terminal for Silk GUI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silk-GUI/terminal.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Silk-GUI/terminal/issues"
+  },
+  "homepage": "https://github.com/Silk-GUI/terminal#readme",
+  "silk": {
+    "url": "http://localhost:8000"
+  },
+  "icon": "public/icon.png",
+  "dependencies": {
+    "tty.js": "github:silk-gui/tty.js"
+  }
+}

@@ -1,3 +1,11 @@
+var app = require('app');
+var BrowserWindow = require('browser-window');
+
+app.on('ready', function () {
+  var window = new BrowserWindow();
+  window.loadUrl('http://localhost:8000');
+});
+
 try {
   var tty = require("tty.js");
 } catch (e) {
@@ -8,7 +16,6 @@ var options = {
   "port": 8000,
   "shell": "bash"
 };
-var app = tty.createServer(options);
+var ttyServer = tty.createServer(options);
 
-
-app.listen();
+ttyServer.listen();
